@@ -1,0 +1,41 @@
+body {
+    font-family: 'Ubuntu', sans serif;
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('img/bck_floresta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+canvas {
+    border: 15px solid #b4ffc2;
+}
+
+h1 { 
+    color: #5b3800;
+    background-color: #e5c50a;
+    border-radius: 4px;
+    padding: 0 30px;
+}
+
+a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 10px 5px 0;
+    color: #fff;
+    font-size: 10px;
+}
+
+h2 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
